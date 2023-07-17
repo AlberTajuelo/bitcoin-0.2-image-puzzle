@@ -1,0 +1,729 @@
+# 0.2 BTC puzzle
+
+## Introduction
+
+On 2020-10-08T09:25:30.484Z (october) a user called [u/stsh_n](https://www.reddit.com/user/stsh_n/) created a [thread in Reddit called "Bitcoin puzzle (2000$)" with only a image](https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/). This user left and never come back.
+
+This is the original photo:
+
+![](images/original.png)
+
+*If this info has helped you, please consider donating to 1L7PNjAMaELdhzrp2RLojnAPVk4ksQddMZ*
+
+## Blockchain
+
+This image is referencing on the bottom left corner a Bitcoin address [1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ](https://blockchair.com/bitcoin/address/1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ) with 0.2 BTC (the price of BTC when author posted the image was around ~10k$). Currently the price is 6,065.00USD.
+
+The author created the following [Bitcoin transaction fcee21d44ee94c09869947c74b61669bf928358e9c2d1699fb075bb6ebf5d043](https://blockchair.com/bitcoin/transaction/fcee21d44ee94c09869947c74b61669bf928358e9c2d1699fb075bb6ebf5d043) on May 10, 2020, 8:01 AMUTC.
+
+In this transaction author uses 4 scripthash addresses and send 0.2 BTC to a pubkeyhash address and the rest to a scripthash address.
+
+## General Hints
+
+Pages with more information:
+- [0.2 ₿ puzzle](https://bitcointalk.org/index.php?topic=5404767.0)
+- [Private Keys PW](https://privatekeys.pw/puzzles/0.2-btc-puzzle)
+- [First Reddit thread](https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/)
+- [bitcoinpuzzles Reddit thread](https://www.reddit.com/r/bitcoinpuzzles/comments/jrr7mo/is_this_puzzle_still_valid_is_this_image_correct/)
+- [cryptopuzzlers Reddit thread](https://www.reddit.com/r/CryptoPuzzlers/comments/mbdogq/02_btc_puzzle/)
+
+## Seed phrase
+
+You will need to guess the:
+- Words to use.
+- Correct order of the words.
+- Correct length.
+
+Date format in the puzzle are:
+```
+MONTH.DAY.YEAR
+05.25.20
+11.03.20
+```
+
+There are different possible (common) systems to generate a HD root key out of a mnemonic phrase.
+
+### Standardized BIP39
+
+In BIP39 there is a [fixed word list of 2048 words](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt). There is an english word list and 9 more official lists for other languages.
+
+The length of the seed phrase could be 3 / 6 / 9 / 12 / 15 / 18 / 21 or 24 words.
+
+The last word of eg. a 12 word phrase is not solely a checksum - it contains the last bits of the HD key and a checksum, as every word represents 11 bits (2^11=2048) and 12 words result in 132 bits, of which 128 bits are the key and 4 bits the checksum. A 24 word phrase result in 264 bits (256 bit key and 8 bits checksum).
+
+Also this phrase could be extended with an additional self chosen word/password (not necessary out of the BIP39-wordllist), which completely changes the resulting HD key.
+
+### Old Electrum mnemonic
+
+From [1.9.8 version](https://github.com/spesmilo/electrum/blob/1.9.8/lib/mnemonic.py) and [current version](https://github.com/spesmilo/electrum/blob/master/electrum/old_mnemonic.py) (same files).
+
+This is a list with 1626 words.
+
+```
+Note about US patent no 5892470: Here each word does not represent a given digit.
+Instead, the digit represented by a word is variable, it depends on the previous word.
+```
+
+## Creator
+
+There are two "signs" in the bottom right and in the top corner with "CHaRLy".
+
+Probably [Charly Palmer](https://www.instagram.com/charlylpalmer/?hl=es) could be the author of the image (at least the creator).
+
+[This image](https://www.instagram.com/p/CGED2CMBTzD/) is from the same day that this BTC puzzle was published. "I’m seeing red."
+
+There is other possibility that it could be JR - Jean René.
+
+## Black Lives Matter
+
+[Black Lives Matter (BLM) is a decentralized political](https://en.wikipedia.org/wiki/Black_Lives_Matter) and social movement that seeks to highlight racism, discrimination, and racial inequality experienced by black people. Its primary concerns are incidents of police brutality and racially motivated violence against black people.
+
+#BlackLivesMatter
+
+[How Wikipedia Became a Battleground for Racial Justice JUNE 09, 2020](https://slate.com/technology/2020/06/wikipedia-george-floyd-neutrality.html)
+
+## Image Tools
+
+Here you have a few available tools. 
+Foresinc tools:
+- [Photo Forensics](https://29a.ch/photo-forensics/#pca)
+- [Aperisolve](https://www.aperisolve.com/)
+- [Mirror image](https://www.img2go.com/rotate-image/)
+
+There are a lot more over the internet.
+
+## World map
+
+![](images/world_map.png)
+
+References:
+
+1. Space Needle
+2. Statue of Liberty
+3. China (M16 location)
+4. George Floyd died.
+5. The White House
+
+## Wikipedia leaks ?
+
+[A user called "Beaneater00"](https://en.wikipedia.org/w/index.php?title=Special:Contributions/Beaneater00&target=Beaneater00&offset=20201016133238) edited at 05:25 the Wikipedia page "The pot calling the kettle black" the same that this BTC puzzle was published.
+
+There is [other user](https://en.wikipedia.org/wiki/Special:Contributions/188.49.125.254) but probably without relation.
+
+## Table
+
+This table is generated using the following hints. Probably there are wrong words but you can have a starting point from here:
+
+| Order  | Word  | Explanation  |
+|---|---|---|
+| 1  | subject  | Appear in the section 1 (13th) or it could be 14? |
+| 2  | camera  | Two cameras. Maybe could be "twin" word?  |
+| 3  | tower  | 1+2 in clock  |
+| 4  | mask  | 4 person with a mask  |
+| 5  | police  | Line five  |
+| 6  |   |   |
+| 7  | liberty  | The crown with 7 points that symbolize the 7 seas and 7 continents  |
+| 8  |   |   |
+| 9  | eye  | 4+5 in the pyramid eye  |
+| 10  | black  | Black day number X  |
+| 11  | pyramid  | 5+6 inside the pyramid  |
+| 12  | vote  | Reverse "versus"  |
+| 13  | moon  | 12+1 in clock  |
+| 14  |   |   |
+| 15  |   |   |
+| 16  | rifle  | M16 rifle from China |
+| 17  | gold  | Graph shows 17 years of gold price evolution  |
+| 18  |   |   |
+| 19  | glove  | Appears with vaccine with CVD19 on it |
+| 20  | apple  |   |
+| 21  |   |   |
+| 22  |   |   |
+| 23  |   |   |
+| 24  |   |   |
+
+## 1. Gold Chart
+
+Puzzle:
+
+![](images/1_chart.png)
+
+References:
+
+This graph has the Y axis that goes from 0 to 1800. It is possible that it is the evolution of the price of the gold/dollar pair. I think it's a dollar because of the stars in the background.
+
+Note: note that gold has reached its maximum price at the time the graph is shown.
+
+Gold price chart
+
+https://www.tradingview.com/chart/?symbol=TVC%3AGOLD
+
+Price at 376.85$
+August/2003
+
+Price at 1954.80$
+September/2020
+
+17 years from start to end
+
+Monthly chart. It seems a copy and paste from TradingView
+
+![](images/1_chart_tradingview.png)
+
+Words:
+- 803	gold
+- 136	axis
+- 1100	maximum
+- 1364	price
+- 1129	minimum
+
+## 2. COVID19
+
+Puzzle:
+
+![](images/2_covid19.png)
+
+Hint:
+
+```
+COVID 19 IS A
+HOAX 5G IS
+THE KILLER
+```
+
+References:
+
+This is a graffiti that it is fake news about mobile phone (5G) technology found on 2020/apr/26.
+
+![](images/2_covid19_wall.png)
+
+Pages:
+https://www.theguardian.com/world/2020/apr/26/5g-coronavirus-and-contagious-superstition
+https://www.ft.com/content/1eeedb71-d9dc-4b13-9b45-fcb7898ae9e1
+
+Words:
+- 1194	news
+- 1309	phone
+- 1140	mobile
+- 1032	liberty
+
+## 3. Donald Trump vs Joe Biden
+
+Puzzle:
+
+![](images/3_trump_vs_biden.png)
+
+References:
+
+Donald Trump represents Red (Republican)
+
+Joe Biden represents Blue (democratic)
+
+Why tie has the inverse color?
+
+[The 2020 United States presidential election](https://en.wikipedia.org/wiki/2020_United_States_presidential_election) was the 59th quadrennial presidential election, held on Tuesday, November 3, 2020.
+
+11.03.20
+
+Trump has a Russian flag on his chest, maybe this is a hint in Russian
+
+If you mirror ".vs.", you will obtain the number "12":
+
+![](images/3_versus_mirrored.png)
+
+Words:
+- 451	debate
+- 1968	vote
+
+## 4. Thirteenth Amendment
+
+Puzzle:
+
+![](images/4_thirteenth_amendment.png)
+
+Hint:
+
+```
+Section 1:
+Neither slavery nor
+involuntary servitude,
+except as a punishment
+for crime whereof the
+party shall have been
+duly convicted, shall exist
+within the United States,
+or any place subject to
+their jurisdiction.
+```
+
+Also there is a graffiti with the following text:
+
+```
+FUCK
+THIS
+SHIT
+```
+
+References:
+
+[On December 18, 1865, the 13th Amendment](https://constitution.congress.gov/browse/essay/amdt13-S1-1/ALDE_00000992/) was adopted as part of the United States Constitution. The amendment officially abolished slavery, and immediately freed more than 100,000 enslaved people, from Kentucky to Delaware.
+
+These words are underlined:
+
+ * Section *1*
+ * or any place *subject* to
+
+## 5. Clock
+
+Puzzle:
+![](images/5_clock.png)
+
+![](images/original_clock.png)
+
+References:
+
+Clock hands always point halfway between two numbers on the clock.
+
+Current time is: 10:07
+
+the second pointer between 12 and 1 (12 + 1 = 13) 
+the minute pointer between 1 and 2 (1 + 2 = 3)
+the hour pointer between 10 and 11 (10 + 11 = 21)
+
+the second pointer has the "moon" word
+the minute pointer has the "tower" word
+
+## 6. Esse quam niger es...
+
+Puzzle:
+![](images/6_esse_quam.png)
+
+Hint:
+
+```
+Esse quam niger es, sic dixit caccabus ollae
+```
+
+References:
+
+Russian: Смотри, какой ты черный, - сказал котелок горшку
+English: Look how black you are, the bowler hat said to the pot.
+
+"The pot calling the kettle black" is a proverbial idiom that may be of Spanish origin, of which English versions began to appear in the first half of the 17th century.
+
+Wikipedia reference: https://en.wikipedia.org/wiki/The_pot_calling_the_kettle_black
+
+This is the version that the puzzle creator maybe seen of this [Wikipedia article](https://en.wikipedia.org/w/index.php?title=The_pot_calling_the_kettle_black&oldid=977612957) from 9 September 2020.
+
+Probably is related to [Donald Trump vs Joe Biden](#3-donald-trump-vs-joe-biden).
+
+Words:
+- 184	black
+- 698	fire
+- 14	accuse
+- 1941	verb (proverb?)
+
+## 7. COVID-19 Vaccine
+
+Puzzle:
+![](images/7_covid.png)
+
+Hint:
+
+```
+CVD19
+```
+
+References:
+
+Five letters, five fingers in the hand. Number 19 inside the vaccine
+
+Wikipedia article: https://en.wikipedia.org/wiki/COVID-19_vaccine
+
+https://en.wikipedia.org/w/index.php?title=COVID-19_vaccine&oldid=982231713
+
+Words:
+- 798	glove
+- 839	hand
+
+## 8. In wich...
+
+Puzzle:
+![](images/8_in_wich.png)
+
+Hint:
+
+```
+in wich they were received. The payee needs proot that at the time of each transaction, the majority of nodes agreed it was the first received
+```
+
+References:
+
+This is an extract from [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) from the page 2 and header "2. Transactions".
+
+```
+To accomplish this without a trusted party, transactions must be
+publicly announced [1], and we need a system for participants to agree on a single history of the
+order in which they were received. The payee needs proof that at the time of each transaction, the
+majority of nodes agreed it was the first received.
+```
+
+This hint starts with "in" and in the complete text, it goes before "order" word. It can mean two things:
+- This word is before "order"
+- This word is "order"
+
+![](images/8_in_wich_bitcoin_whitepaper.png)
+
+There are typos in the quote:
+- "wich" should be "which"
+- "proot" should be "proof"
+
+Also there are words with different colors:
+- "majority of no ....... was the first received"
+- ".. of each transaction, the ....... des agreed it". Could be related to Data Encryption Standard (DES)?
+
+Words:
+- 1250	order
+- 1379	proof
+- 700	first
+- 41	agree
+- 1076	major
+- 1437	receive
+
+## 9. Space Needle
+
+Puzzle:
+![](images/9_space_needle.png)
+
+References:
+
+The Space Needle is an observation tower in Seattle, Washington, United States. Considered to be an icon of the city, it has been designated a Seattle landmark. Located in the Lower Queen Anne neighborhood, it was built in the Seattle Center for the 1962 World's Fair, which drew over 2.3 million visitors.
+
+Wikipedia article: https://en.wikipedia.org/wiki/Space_Needle
+https://en.wikipedia.org/w/index.php?title=Space_Needle&oldid=982262055
+
+and earthquakes of up to 9.0 magnitud ??
+
+There is a letter "food" in the tower. Maybe it can refeer to:
+
+For decades, the hovering disk of the Space Needle was home to 2 restaurants 500 ft (150 m) above the ground: the Space Needle Restaurant, which was originally named Eye of the Needle, and Emerald Suite.
+
+With the clock, marks the "11" number.
+
+Words:
+- 727	food
+- 1667	space
+- 1183	need
+- 650	eye
+
+## 10. Gravity Falls
+
+[Gravity Falls](https://en.wikipedia.org/wiki/Gravity_Falls) is an American mystery comedy animated television series created by Alex Hirsch for Disney Channel and Disney XD.
+
+[All books available](https://docs.google.com/document/d/1veWQhOrg15M0beBoigMwyMwilsDTjg2IEWPBWfhGv6M/edit). You can see that there are a lot only in russian language.
+
+Bill Cipher was a triangular inter-dimensional demon, formerly existent only in the mindscape before succeeding in gaining access to the real world.
+
+![](images/10_bill.png)
+
+It's similar to the pyramid. Author based a few runes using the cipher.
+
+## 11. Rune (over Trump head)
+
+Puzzle:
+![](images/11_rune_trump_head.png)
+
+References:
+
+Using the right cypher (Gravity Falls):
+
+![](images/11_gravity_falls_cypher.png)
+
+We can convert it to:
+
+T U E S D A Y
+
+## 12. Statue of Liberty
+
+Puzzle:
+![](images/12_statue.png)
+
+Hint:
+
+We can see in the left hand (in the book)
+
+```
+BLM
+
+XX
+
+SHT
+```
+
+SHT is a bit hidden.
+
+"BLM" maybe is a reference to the Black Lives Matter movement. 
+
+References:
+
+The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. 
+
+https://en.wikipedia.org/wiki/Statue_of_Liberty
+
+In her left hand she carries a book with the inscription 'July IV MDCCLXXVI' (4 July 1776). That is the date when the American Declaration of Independence was signed. And then there's the crown with 7 points that symbolize the 7 seas and 7 continents.
+
+Maybe thats the reason of the "1865 - 202...?" text on the right side:
+
+"The idea for the statue was born in 1865, when the French historian and abolitionist Édouard de Laboulaye proposed a monument to commemorate the upcoming centennial of U.S. independence (1876), the perseverance of American democracy and the liberation of the nation’s slaves."
+
+It could be that:
+- There is a missing number. The end of freedom?
+- It's a minus sign: 1865 - 202  = 1663?
+
+The base of the Statue of Liberty reveals "Only Bitcoin" under "Only real Bitcoin" which likely means 'Real' is a seed word.
+
+```
+PAY FOR THE FUTURE
+THIS IS THE FIRST PREDICTION
+```
+
+Words:
+- 757	future
+- 1294	payment
+- 1358	predict
+
+## 13. Trade war
+
+Puzzle:
+![](images/13_trade_war.png)
+
+References:
+
+Maybe it is a reference to [China and Unitad States trade war](https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war).
+
+The [M16 rifle](https://en.wikipedia.org/wiki/M16_rifle) is pointing exactly where Norinco CQ, the chinese version of M16 rifle is produced.
+
+Words:
+- 832	gun
+- 1987	weapon
+- 1846	trade
+- 450	deal
+- 1486	rifle
+
+## 14. Welcome to the brave new world
+
+Puzzle:
+![](images/14_new_world.png)
+
+Hint:
+
+```
+WELCOME TO THE
+BRAVE
+NEW WORLD
+```
+
+And "WELCOME TO THE" text contain:
+
+```
+W) in the mint based model,
+E) the mint was aware
+L) of all transac
+C) tions and decided
+O) which arrrived first.
+M) To accomplish this without a trusted
+E) party, transactions must
+
+T) be publicly an
+O) nounced, and we
+
+T) need a system
+H) for participants to agree on a single 
+E) history of the order
+```
+
+And "BRAVE NEW WORLD" text contain:
+
+```
+B)
+R)
+A)
+V)
+E)
+
+N)
+E)
+W)
+
+W)
+O)
+R)
+L)
+D)
+```
+
+References:
+
+Typos:
+- introdue
+- participans
+- doudle (should be double)
+- sing (instead of sign)
+- abcense (instead of absence)
+
+[Brave New World is a dystopian novel](https://en.wikipedia.org/wiki/Brave_New_World) by English author Aldous Huxley, written in 1931 and published in 1932.
+
+[The pilot episode](https://popoff.us/brave-new-world-s01-e01-pilot-98c164115bd), welcoming viewers to New London, immediately informs us of three rules: No Privacy. No Family. No Monogamy.
+
+Interesting that:
+- "WELCOME TO THE" only one line creates each letter
+- "BRAVE NEW WORLD" uses two lines to create each letter.
+
+Words:
+- 2030	world
+- 1995	welcome
+- 1280	paper (bitcoin whitepaper)
+
+## 15. Cameras
+
+Puzzle:
+![](images/15_cameras.png)
+
+References:
+
+Closed-circuit television (CCTV), also known as video surveillance. There are two cameras and they are connected to a box with an "eye".
+
+Cameras has a shadow and the rest of objects don't have it.
+
+References:
+- Found [mirror free stock image reference from fckuen user](https://www.gettyimages.es/detail/ilustraci%C3%B3n/twin-outdoor-security-camera-cctv-ilustraciones-libres-de-derechos/98031609)
+
+
+## 16. Black lives matter
+
+Puzzle:
+![](images/16_black_lives.png)
+
+Hint:
+
+```
+BLACK
+LIVES
+MATTER
+NO JUSTICE NO PEACE
+END POLICE BRUTALITY
+STOP KILLING US
+NOT ONE MORE
+```
+
+References:
+
+[No Justice, No Peace: America's Uprising against Police Brutality and Racism | Foreign Correspondent](https://www.youtube.com/watch?v=kt_M3FAmg1Y)
+
+
+## 17. George Floyd
+
+Puzzle:
+![](images/17_george.png)
+
+Hint:
+
+```
+05.25.20
+I can't
+BREATHE
+```
+
+Original photos:
+
+![](images/17_george_original.png)
+
+![](images/17_icantbreathe.png)
+
+References:
+
+On May 25, 2020, George Floyd, a 46-year-old black man, was murdered in Minneapolis, Minnesota, U.S., by Derek Chauvin, a 44-year-old white police officer.
+
+[Wikipedia reference](https://en.wikipedia.org/wiki/Murder_of_George_Floyd)
+
+Words:
+- 1035	life
+- 1342	police
+- 1559	security
+
+## 18. Pyramid
+
+Puzzle (mirrored image):
+
+![](images/18_pyramid.png)
+
+Hint:
+
+```
+RERUM COGNOSCERE CAUSAS
+FIAT JUSTITIA ET PEREAT MUNDUS
+UBI BENE IBI PATRIA
+```
+
+References:
+
+There are three lation quotes:
+
+"Felix, qui potuit rerum cognoscere causas"
+"Fortunate, who was able to know the causes of things"
+
+[Wikipedia reference](https://en.wikipedia.org/wiki/Felix,_qui_potuit_rerum_cognoscere_causas)
+
+Is verse 490 of Book 2 of the "Georgics" (29 BC), by the Latin poet Virgil (70 - 19 BC)
+
+"Fiat iustitia, et pereat mundus" is a Latin phrase, meaning "Let justice be done, though the world perish".
+
+[Wikipedia reference](https://en.wikipedia.org/wiki/Fiat_iustitia,_et_pereat_mundus)
+
+Ubi bene ibi patria ("Homeland is where it (life) is good"; lit. where good, there fatherland). This latter expression in turn reminds of a verse (Teucer, fr. 291) of the Roman tragic poet Marcus Pacuvius (ca. 220–130 BC) quoted by Cicero (106–43 BC)
+
+[Wikipedia reference](https://en.wikipedia.org/wiki/Ubi_panis_ibi_patria)
+
+
+## 19. Bust of King Leopold II
+
+Puzzle:
+
+![](images/19_bust.png)
+
+References:
+
+Black Lives Matter protesters in Belgium defaced the bust of King Leopold II, who was responsible for the colonial genocide of up to 10 million Congolese people.
+
+The statue was covered in red paint symbolizing blood and gagged with a canvas that reads "I can't breathe".  This photo is from 4 jun. 2020:
+
+![](images/19_bust_original.png)
+
+[Source Twitter](https://twitter.com/redfishstream/status/1268471631481057281)
+
+[Leopold II](https://en.wikipedia.org/wiki/Leopold_II_of_Belgium) (French: Léopold Louis Philippe Marie Victor, Dutch: Leopold Lodewijk Filips Maria Victor; 9 April 1835 – 17 December 1909) was the second King of the Belgians from 1865 to 1909, and the founder and sole owner of the Congo Free State from 1885 to 1908.
+
+It has a XX in his head (not the official photo). Maybe it means number 20.
+
+Words:
+- 1556	second
+
+## 20. Rune right
+
+Puzzle (rotated):
+
+![](images/20_rune_right.png)
+
+References:
+
+unes on the right "here are encrypted bitcoins for a rainy day number X."
+
+здесь зашифрованы биткоины на чёрный день номер X.
+
+There are two runes more:
+
+Runes from above "I hope that many bitcoins will be sent here."
+"Я надеюсь что сюда будут присылать много биткоинов."
+
+Runes at the bottom "Sum of two numbers".
+
+"Сумма двух чисел"
