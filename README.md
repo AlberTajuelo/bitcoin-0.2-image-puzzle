@@ -8,7 +8,7 @@ This is the original photo:
 
 ![](images/original.png)
 
-*If this info has helped you, please consider donating to 1L7PNjAMaELdhzrp2RLojnAPVk4ksQddMZ*
+*If this info has helped you, please consider donating to [1L7PNjAMaELdhzrp2RLojnAPVk4ksQddMZ](https://www.blockchain.com/explorer/addresses/btc/1L7PNjAMaELdhzrp2RLojnAPVk4ksQddMZ)*
 
 ## Blockchain
 
@@ -337,9 +337,11 @@ References:
 
 Five letters, five fingers in the hand. Number 19 inside the vaccine
 
-Wikipedia article: https://en.wikipedia.org/wiki/COVID-19_vaccine
+[A COVID‑19 vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine) is a vaccine intended to provide acquired immunity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the virus that causes coronavirus disease 2019 (COVID‑19).
 
-https://en.wikipedia.org/w/index.php?title=COVID-19_vaccine&oldid=982231713
+The [article from Wikipedia](https://en.wikipedia.org/w/index.php?title=COVID-19_vaccine&oldid=982231713) but probably when the author read about it.
+
+It seems that it is based on this [stock photo](https://www.bigstockphoto.com/es/image-405968219/stock-photo-female-doctor-in-medical-mask-and-a-stethoscope-on-shoulder-holding-vaccine-for-children-or-adults/).
 
 Words:
 - 798	glove
@@ -491,6 +493,45 @@ Words:
 - 1294	payment
 - 1358	predict
 
+Puzzle:
+![](images/12_statue_flag.png)
+
+References:
+
+[Black power](https://en.wikipedia.org/wiki/Black_power) is a political slogan and a name which is given to various associated ideologies which aim to achieve self-determination for black people. The earliest known usage of the term "Black Power" is found in Richard Wright's 1954 book Black Power.
+
+The fist is mirrored compared to the original logo.
+
+![](images/12_black_power_logo.png)
+
+Also there is a "stop" word. Maybe it could be related to a [original quote from Luci Hammans](http://www.womeninandbeyond.org/?p=24079&fbclid=IwAR1fnyivzERwvc7AzmjFP3yp0laEbzHzWksaLLCSd8Oxn5nvFOEH7uHeUVo):
+
+"As we marched today, we took steps of resilience, because to protest in Barbados needs permission and requests […] the Public Order Act was created to stop Black Power protests in Barbados, and to appease the political and economic elite in 1937, because we were not passive then and we are not passive now!"
+
+[The national flag of the United States](https://en.wikipedia.org/wiki/Flag_of_the_United_States), often referred to as the American flag or the U.S. flag, consists of thirteen equal horizontal stripes of red (top and bottom) alternating with white, with a blue rectangle in the canton, referred to as the union and bearing fifty small, white, five-pointed stars arranged in nine offset horizontal rows, where rows of six stars (top and bottom) alternate with rows of five stars. The 50 stars on the flag represent the 50 U.S. states, and the 13 stripes represent the thirteen British colonies that declared independence from Great Britain, which they obtained in their victory in the American Revolutionary War.
+
+![](images/12_us_flag.png)
+
+The US flag has different stripes compared with the original one. This is because this flag is referencing to [Pan-african flag. African America flag. Juneteenth, Freedom Day. African-American Independence Day, June 19](https://www.shutterstock.com/es/image-vector/panafrican-flag-african-america-juneteenth-freedom-1412994029?consentChanged=true)
+
+[Juneteenth (officially Juneteenth National Independence Day)](https://en.wikipedia.org/wiki/Juneteenth) is a federal holiday commemorating the end of slavery in the United States. Its name is a portmanteau of "June" and "nineteenth", as it is celebrated on the anniversary of June 19, 1865, when in the wake of the American Civil War, Major General Gordon Granger ordered the final enforcement of the Emancipation Proclamation in Texas.
+
+Flags symbolize the union of governance, people, and territory, this flag was created to unify Black people in America and around the world.
+- Red: the blood that unites all people of Black African ancestry, and shed for liberation
+- Black: for the people whose existence as a nation, though not a nation-state, is affirmed by the existence of the flag
+- Green: the abundant and vibrant natural wealth of Africa, the Motherland.
+
+Although both flags act as symbols of pride and freedom for Black people, the Juneteenth flag was intentionally created to honor this holiday, whereas the Pan-African flag can be used in any number of ways in representation of all Black people dispersed across the globe.
+
+If you count the number of the stars, you will get 44 instead 50 (representing 50 U.S. states). This could have different possible meanings:
+- The 44-Star Flag: This Flag became the Official United States Flag on July 4th, 1891. A star was added for the admission of Wyoming (July 10, 1890) and was to last for 5 years.
+- It could be refered to "Derivation Path" for the [BIP44 Spec](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki). It should be "m/44'/0'/0'/0".
+
+Words:
+- 1391	punch
+- 184   black
+- 1355  power
+
 ## 13. Trade war
 
 Puzzle:
@@ -619,6 +660,7 @@ References:
 
 [No Justice, No Peace: America's Uprising against Police Brutality and Racism | Foreign Correspondent](https://www.youtube.com/watch?v=kt_M3FAmg1Y)
 
+Also note the three colors for each line: Blue, Red and Green. And also black.
 
 ## 17. George Floyd
 
@@ -683,6 +725,13 @@ Ubi bene ibi patria ("Homeland is where it (life) is good"; lit. where good, the
 
 [Wikipedia reference](https://en.wikipedia.org/wiki/Ubi_panis_ibi_patria)
 
+Also this is referencing to the great seal that contains a floating-eye pyramid on the US dollar bill:
+
+![](images/18_great_seal.png)
+
+The uncapped pyramid may be a metaphor for the country, which was not yet finished at the time of the pyramid’s design. The NIEHS also states that the design was intentional, and Charles Thomson — a designer of the Great Seal — said it represented “strength and duration.”
+
+The eye above the pyramid is also meant to be a reflection of divine providence for the creation of the U.S., something that is further demonstrated by the terms “ANNUIT COEPTIS” (”God has favored our undertaking”) and “NOVUS ORDO SECLORUM” (”A new order for the world”).
 
 ## 19. Bust of King Leopold II
 
@@ -715,9 +764,20 @@ Puzzle (rotated):
 
 References:
 
-unes on the right "here are encrypted bitcoins for a rainy day number X."
-
+Runes on the right:
+```
 здесь зашифрованы биткоины на чёрный день номер X.
+```
+
+```
+"here are encrypted bitcoins for a rainy day number X."
+```
+
+Note that "здесь" can also be translated to "there" (a bip39 word).
+
+And "чёрный день" could be translated to:
+- black day
+- rainy day
 
 There are two runes more:
 
