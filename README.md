@@ -10,6 +10,15 @@ This is the original photo:
 
 *If this info has helped you, please consider donating to [1L7PNjAMaELdhzrp2RLojnAPVk4ksQddMZ](https://www.blockchain.com/explorer/addresses/btc/1L7PNjAMaELdhzrp2RLojnAPVk4ksQddMZ)*
 
+## Contributors
+
+Mainly this information is extracted mainly from reddit threads, so thanks a lot for all your contributions.
+
+Also special thanks to:
+- average_student_81 (44 stars/bip44 derivation path and 1713 STOCK).
+
+The idea of this repository is to found or at least give ideas to resolve this puzzle.
+
 ## Blockchain
 
 This image is referencing on the bottom left corner a Bitcoin address [1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ](https://blockchair.com/bitcoin/address/1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ) with 0.2 BTC (the price of BTC when author posted the image was around ~10k$). Currently the price is 6,065.00USD.
@@ -197,8 +206,14 @@ This is a graffiti that it is fake news about mobile phone (5G) technology found
 ![](images/2_covid19_wall.png)
 
 Pages:
-https://www.theguardian.com/world/2020/apr/26/5g-coronavirus-and-contagious-superstition
-https://www.ft.com/content/1eeedb71-d9dc-4b13-9b45-fcb7898ae9e1
+- [The Guardian](https://www.theguardian.com/world/2020/apr/26/5g-coronavirus-and-contagious-superstition)
+- [FT](https://www.ft.com/content/1eeedb71-d9dc-4b13-9b45-fcb7898ae9e1)
+
+As pointed out by average_student_81:
+
+If you look closely at the word COVID you can see 1713 which is STOCK.
+
+![](images/2_covid_stock.png)
 
 Words:
 - 1194	news
