@@ -503,6 +503,8 @@ PAY FOR THE FUTURE
 THIS IS THE FIRST PREDICTION
 ```
 
+It seems that it is from this [stock photo](https://www.shutterstock.com/es/image-vector/statue-liberty-on-white-background-94143832).
+
 Words:
 - 757	future
 - 1294	payment
@@ -627,6 +629,12 @@ Typos:
 - abcense (instead of absence)
 
 [Brave New World is a dystopian novel](https://en.wikipedia.org/wiki/Brave_New_World) by English author Aldous Huxley, written in 1931 and published in 1932.
+
+This novel contains eighteen chapters and it could refer to 18 seed phrase. You can read the book in this [page](https://www.huxley.net/bnw/one.html).
+
+Also the word "order and stability" is found on this book:
+
+![](images/14_order_and_stability.png)
 
 [The pilot episode](https://popoff.us/brave-new-world-s01-e01-pilot-98c164115bd), welcoming viewers to New London, immediately informs us of three rules: No Privacy. No Family. No Monogamy.
 
@@ -802,3 +810,15 @@ Runes from above "I hope that many bitcoins will be sent here."
 Runes at the bottom "Sum of two numbers".
 
 "Сумма двух чисел"
+
+## 21. Order using clock numbers
+
+
+Puzzle:
+
+![](images/original-clock.png)
+
+References:
+
+One idea it could be to use the clock numbers to see a specific order in the seed phrase.
+
