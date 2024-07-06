@@ -583,7 +583,7 @@ NEW WORLD
 And "WELCOME TO THE" text contain:
 
 ```
-W) In the mint based mode,
+W) In the mint based model,
 E) the mint was aware
 L) of all transac
 C) tions and decided
