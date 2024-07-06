@@ -583,7 +583,7 @@ NEW WORLD
 And "WELCOME TO THE" text contain:
 
 ```
-W) in the mint based model,
+W) In the mint based mode,
 E) the mint was aware
 L) of all transac
 C) tions and decided
@@ -602,21 +602,21 @@ E) history of the order
 And "BRAVE NEW WORLD" text contain:
 
 ```
-B)
-R)
-A)
-V)
-E)
+B) We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing
+R) a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin
+A) A payee can verify the signatures to verify the chain of ownership.The problem of course is the
+V) payee can't verify that one of the owners did not double-spend the coin. A
+E) A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After
 
-N)
-E)
-W)
+N) each transaction, the coin must be returned to the mint to issue a new coin, and only
+E) y coins issued directly from the mint are trusted not to be double-spent. The problem with
+W) this solution is that the fate of the entire money system depends on the company running the
 
-W)
-O)
-R)
-L)
-D)
+W) e mint, with every transaction having to go through them, just like a bank.We need a way
+O) for the payee to know that the previous owners did not sign any earlier 
+R) transactions. For our purposes, the earliest transaction is the one that counts, so we
+L) e don't care about later attempts to double-spend
+D) The only way to confirm the absence of a transaction is to be aware of all transactions
 ```
 
 References:
@@ -637,6 +637,9 @@ Also the word "order and stability" is found on this book:
 ![](images/14_order_and_stability.png)
 
 [The pilot episode](https://popoff.us/brave-new-world-s01-e01-pilot-98c164115bd), welcoming viewers to New London, immediately informs us of three rules: No Privacy. No Family. No Monogamy.
+
+Reference of "WELCOME TO THE BRAVE NEW WORLD" :
+(https://www.sec.gov/comments/s7-04-23/s70423-290181-707862.pdf) - Page 2 - Transactions
 
 Interesting that:
 - "WELCOME TO THE" only one line creates each letter
